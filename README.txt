@@ -3,7 +3,7 @@ Memory Leak Detector
 To detect memory leaks,
 the program must know all dynamic allocations as well as their release that have been made on the target program. 
 The aim of the project was to detect memory leaks in c programs,
-but it’s also work for c++. (dependent on the compiler, see on limits).
+but itâ€™s also work for c++. (dependent on the compiler, see on limits).
 To do this, we will hook functions such as malloc or free and redirect them to our functions,
 which will record the different calls before returning the result of the real function.
 The technique used here is the IAT hooking with Dll injection.
@@ -40,6 +40,3 @@ size    : 10 bytes
 file name: c:\users\moche\desktop\memory leak detector\targetprogram\targetprogram\targetprogram.cpp
 function: main
 line : 28
-
-
-Moché Cohen.
